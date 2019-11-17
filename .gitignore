@@ -1,0 +1,9 @@
+*test*.beam
+*test*.erl
+*.7z
+
+*_test_results.txt
+*.beam
+
+salesdata.erl
+*.hrl
