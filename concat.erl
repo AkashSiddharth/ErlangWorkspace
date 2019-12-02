@@ -7,4 +7,6 @@
 
 concat([]) -> [];
 
-concat([Head|Tail]) -> Head ++ concat(Tail).
+%concat([Head|Tail]) -> Head ++ concat(Tail).
+
+concat(Lists) -> [E || T <- Lists, E <- T].

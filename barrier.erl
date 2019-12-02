@@ -1,6 +1,5 @@
 -module(barrier).
 -export([start/1, init/1, barrier_sync/1]).
-%-import(lists, [foreach/2]).
 
 -spec start(Running :: integer()) -> pid().
 start(Running) ->
